@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blog | TideSDK]]></title>
+  <link href="http://TideSDK.github.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://TideSDK.github.com/"/>
+  <updated>2012-08-28T23:41:40-03:00</updated>
+  <id>http://TideSDK.github.com/</id>
+  <author>
+    <name><![CDATA[David Pratt (for TideSDK)]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[TideSDK Branding Efforts Under Way]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/07/07/tidesdk-branding-efforts-under-way/"/>
+    <updated>2012-07-07T11:47:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/07/07/tidesdk-branding-efforts-under-way</id>
+    <content type="html"><![CDATA[<p>With TideSDK, we are seeking to achieve our own unique branding and community encompassing TiDesktop users. We are looking to extending this much further to embrace web developers and nodejs users. Our branding must encapsulate the organization that we are aspiring to be in the near future. It must also be flexible enough to extend to the branding of various projects that we will be involved with.</p>
+
+<p>While TideSDK is currently synonymous with the former Titanium Desktop, it has
+already become more than a single project. As we undertake efforts to formalize our roadmap, it is evident that TideSDK will become an umbrella for open innovation and technologies that target the desktop (and grow from there). We are continuing to focus on a release so developers can continue where Titanium Desktop left off. Look for more news on this shortly. In addition we have other intiatives underway. More will be said about this in future posts as we discuss the future and a truly exciting roadmap. We also hope to make an important announcement quite soon.</p>
+
+<p>David <a href="https://github.com/wass3r">https://github.com/wass3r</a> has been doing some amazing work with the development of our branding. These assets are beginning to appear in our <a href="https://github.com/TideSDK/TideSDK-Media">https://github.com/TideSDK/TideSDK-Media</a> repository. Next steps will be wireframing for our website together with other assets, and applying this across the website, blog, twitter page, documentation and in the art for the app installers. Here is a peek at some of what has been developed. Note that the alternate logo will be used where we are space constrained. We'd love to hear from you to obtain your feedback.</p>
+
+<p><img src="https://github.com/TideSDK/TideSDK-Media/raw/master/tide-logo/tidesdk-logo-spec.png" alt="TideSDK logo spec" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Atlassian Supports Open Source TideSDK]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/30/atlassian-supports-open-source-tidesdk/"/>
+    <updated>2012-06-30T09:35:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/30/atlassian-supports-open-source-tidesdk</id>
+    <content type="html"><![CDATA[<p><a href="http://www.atlassian.com">Atlassian</a> strongly believes in open source software. They support and contribute to the open source community in a number of ways — supplying their own code, supporting other projects by donating software, and sponsoring Java User Groups.</p>
+
+<p>We are both extremely pleased and grateful that Atlassian has descided to support our open source effort with TideSDK. As a result, we have received the following assistance:</p>
+
+<ul>
+<li>JIRA OnDemand 2000 Users (Community)</li>
+<li>GreenHopper for JIRA OnDemand 2000 Users (Community)</li>
+<li>Bonfire for JIRA OnDemand 2000 Users (Community)</li>
+<li>FishEye/Crucible OnDemand 2000 Users (Community)</li>
+<li>Bamboo OnDemand 100 Remote Agents, Unlimited Jobs (Community)</li>
+<li>Confluence OnDemand 2000 Users (Community)</li>
+</ul>
+
+
+<p>In fact, we've already been making great use of the software. <a href="https://github.com/nazcasistemas">nazcasistemas</a> has imported the legacy of Titanium Desktop for reference while <a href="https://github.com/dubcanada">dubcanada</a> has reviewed the issue history for issues we are bringing forward for categorization and to align these with our release goals.</p>
+
+<p>Many thanks Atlassian for your generous support!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Jenkins Continuous Integration (CI) System Launched]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/25/continuous-integration-system-launched/"/>
+    <updated>2012-06-25T11:07:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/25/continuous-integration-system-launched</id>
+    <content type="html"><![CDATA[<p>Our team has been working hard to build the software inherited from Appcelerator across all supported operating systems. More than clean builds, we are looking for the execution of automated tests as well as the artefacts from each build.</p>
+
+<p>Building TideSDK is extremely time consuming. Our developers must be also be in tune with impacts of commits to the repository on the code base across operating systems. We tweeted not so long ago that Matt <a href="https://github.com/matthewh">https://github.com/matthewh</a> has recently helped the project with server capacity for our Continuous integration (CI) system. He has also been working to get Jenkins set up and configured.</p>
+
+<p>We were pleased to have our first passing build on MacOSX 10.6.8 on Jenkins, June 24. This was an important milestone for us.</p>
+
+<p><img src="http://tidesdk.github.com/images/jenkins-ci.png" alt="Jenkins CI" /></p>
+
+<p>Virtual machines are now being setup for MacOSX 10.7.3, Windows 7 and for Linux. We plan to support Ubuntu and Fedora to start. This may be expanded.</p>
+
+<p>One of the great features of continuous builds is the artefacts obtained followin each build. Our users will benefit from Nightly Builds that we will be making available to tha the current state of our software can be evaluated. Look for a <em>Nightly builds</em> link on our website at <a href="http://www.tidesdk.org">http://www.tidesdk.org</a> shortly.</p>
+
+<p>Find out more about TideSDK by joining our <a href="https://groups.google.com/forum/#!forum/tidesdk">mailing list</a> at or drop by our irc at #tidesdk on freenode.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[History of Titanium Desktop Tags]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/21/history-of-titanium-desktop-tags/"/>
+    <updated>2012-06-21T15:01:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/21/history-of-titanium-desktop-tags</id>
+    <content type="html"><![CDATA[<p>Inheriting a project can make for some surprises. One recently for me has been reviewing the Tag history in Git. To my surprise, much of the tag history of Titanium Deskto is, well, just not available.</p>
+
+<p>Up until the time Appcelerator decided to discontinue the project, there was a progression of release candidates (RC's) publicly to 1.2.0.RC6e. That said, where are the tags? Perhaps someone from Appcelerator can fully explain. Creating a tags are a helpful legacy. I invite the maintainers to comment on this.</p>
+
+<p>```
+$ git tag</p>
+
+<p>0.6
+0.7
+0.8
+0.8.1
+0.8.4
+0.8.5
+1.0.0
+1.1.0
+1.2.0.RC1</p>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Unit Testing Progressing with Drillbit]]></title>
+    <link href="http://TideSDK.github.com/blog/2012/06/21/unit-testing-progressing-with-drillbit/"/>
+    <updated>2012-06-21T10:26:00-03:00</updated>
+    <id>http://TideSDK.github.com/blog/2012/06/21/unit-testing-progressing-with-drillbit</id>
+    <content type="html"><![CDATA[<p>Our team has been working to get Drillbit running and sucessfully passing unit tests. This is in anticipation of connecting to our Continuous Integration system late this week. After a commit to our repository, TideSDK gets built on a variety of operating systems and the unit tests will be executed. This will advise the team of the status of these builds at any time and also provide downloads at the current state.</p>
+
+<p>There are a total of 4619 assertions made in the tests. Currently 85 tests are failing but this is already much better that where we started originally. We continue to progress. The unit test failures are primarily in the language and process modules.</p>
+
+<p>The following is a screenshot of the unit testing and current status:</p>
+
+<p><img src="http://tidesdk.github.com/images/drillbit-06212112.png" alt="June 21 Drillbit results" /></p>
+]]></content>
+  </entry>
+  
+</feed>
